@@ -14,6 +14,8 @@ public class BeforeAfterClassAnnotations {
 	public void beforeSuite () {
 		
 		Reporter.log("Before suit" , true);
+		
+		System.out.println("Tanvir Shinde Made Changes Today");
 	}
 	
 	@BeforeClass
